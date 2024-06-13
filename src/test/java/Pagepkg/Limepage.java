@@ -207,8 +207,8 @@ public class Limepage {
 	   logo.click();
 	   offers.click();
 	   File src =	((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	    File offrscrn = 	offerspg.getScreenshotAs(OutputType.FILE);
-	    FileHandler.copy(offrscrn,new File("./Screenshot/offr.png"));
+	   File offrscrn = 	offerspg.getScreenshotAs(OutputType.FILE);
+	   FileHandler.copy(offrscrn,new File("./Screenshot/offr.png"));
 	    
 	}
 	
