@@ -54,6 +54,14 @@ public class Limetest extends Basecls {
 	}
 	
 	@Test(priority = 3)
+	public void titleverify() throws InterruptedException 
+	{
+		Limepage ob = new Limepage(driver);
+		ob.titleverfctn();
+	  
+	}
+	
+	@Test(priority = 4)
 	public void menus()
 	{
 		Limepage ob = new Limepage(driver);
@@ -61,7 +69,7 @@ public class Limetest extends Basecls {
 	}
 	
 	
-	@Test(priority = 4)
+	@Test(priority = 5)
 	public void bagsearch()
 	{
 		
@@ -72,14 +80,6 @@ public class Limetest extends Basecls {
 	}
 	
 	
-	
-	@Test(priority = 5)
-	public void titleverify() throws InterruptedException
-	{
-		Limepage ob = new Limepage(driver);
-		ob.titleverfctn();
-	  
-	}
 	
 		
 	@Test(priority = 6)
@@ -108,7 +108,7 @@ public class Limetest extends Basecls {
 	}
 	
 	@Test(priority = 9)
-	public void scrnsht() throws IOException
+	public void scrnsht() throws IOException, InterruptedException
 	{
 		
 		Limepage ob = new Limepage(driver);

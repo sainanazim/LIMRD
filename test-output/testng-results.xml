@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-13T01:01:06 IST" name="Default suite" finished-at="2024-06-13T01:02:18 IST" duration-ms="71329">
+  <suite started-at="2024-06-13T15:40:28 IST" name="Default suite" finished-at="2024-06-13T15:41:33 IST" duration-ms="64720">
     <groups>
     </groups>
-    <test started-at="2024-06-13T01:01:06 IST" name="Default test" finished-at="2024-06-13T01:02:18 IST" duration-ms="71329">
+    <test started-at="2024-06-13T15:40:28 IST" name="Default test" finished-at="2024-06-13T15:41:33 IST" duration-ms="64720">
       <class name="Testpkg.Limetest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T01:01:06 IST" name="setup" finished-at="2024-06-13T01:01:10 IST" duration-ms="3304" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T15:40:28 IST" name="setup" finished-at="2024-06-13T15:40:32 IST" duration-ms="3698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifytest()[pri:1, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T01:01:10 IST" name="verifytest" finished-at="2024-06-13T01:01:59 IST" duration-ms="49206" status="PASS">
+        <test-method signature="verifytest()[pri:1, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T15:40:32 IST" name="verifytest" finished-at="2024-06-13T15:41:10 IST" duration-ms="38263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifytest -->
-        <test-method signature="logo()[pri:2, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T01:01:59 IST" name="logo" finished-at="2024-06-13T01:01:59 IST" duration-ms="338" status="PASS">
+        <test-method signature="logo()[pri:2, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T15:41:10 IST" name="logo" finished-at="2024-06-13T15:41:10 IST" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo -->
-        <test-method signature="menus()[pri:3, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T01:01:59 IST" name="menus" finished-at="2024-06-13T01:02:00 IST" duration-ms="327" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- menus -->
-        <test-method signature="bagsearch()[pri:4, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T01:02:00 IST" name="bagsearch" finished-at="2024-06-13T01:02:02 IST" duration-ms="2260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bagsearch -->
-        <test-method signature="titleverify()[pri:5, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T01:02:02 IST" name="titleverify" finished-at="2024-06-13T01:02:04 IST" duration-ms="2200" status="PASS">
+        <test-method signature="titleverify()[pri:3, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T15:41:10 IST" name="titleverify" finished-at="2024-06-13T15:41:17 IST" duration-ms="6218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleverify -->
-        <test-method signature="kids()[pri:6, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T01:02:04 IST" name="kids" finished-at="2024-06-13T01:02:12 IST" duration-ms="7716" status="PASS">
+        <test-method signature="menus()[pri:4, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T15:41:17 IST" name="menus" finished-at="2024-06-13T15:41:17 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menus -->
+        <test-method signature="bagsearch()[pri:5, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T15:41:17 IST" name="bagsearch" finished-at="2024-06-13T15:41:19 IST" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bagsearch -->
+        <test-method signature="kids()[pri:6, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T15:41:19 IST" name="kids" finished-at="2024-06-13T15:41:27 IST" duration-ms="7907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- kids -->
-        <test-method signature="women()[pri:7, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T01:02:12 IST" name="women" finished-at="2024-06-13T01:02:15 IST" duration-ms="2772" status="PASS">
+        <test-method signature="women()[pri:7, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T15:41:27 IST" name="women" finished-at="2024-06-13T15:41:30 IST" duration-ms="2574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- women -->
-        <test-method signature="men()[pri:8, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T01:02:15 IST" name="men" finished-at="2024-06-13T01:02:17 IST" duration-ms="2085" status="PASS">
+        <test-method signature="men()[pri:8, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T15:41:30 IST" name="men" finished-at="2024-06-13T15:41:32 IST" duration-ms="1751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- men -->
-        <test-method signature="scrnsht()[pri:9, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T01:02:17 IST" name="scrnsht" finished-at="2024-06-13T01:02:18 IST" duration-ms="970" status="PASS">
+        <test-method signature="scrnsht()[pri:9, instance:Testpkg.Limetest@298a5e20]" started-at="2024-06-13T15:41:32 IST" name="scrnsht" finished-at="2024-06-13T15:41:33 IST" duration-ms="1191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrnsht -->

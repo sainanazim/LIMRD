@@ -6,11 +6,6 @@
       <class name="Testpkg.Limetest">
         <methods>
           <include name="scrnsht"/>
-          <include name="kids"/>
-          <include name="women"/>
-          <include name="bagsearch"/>
-          <include name="titleverify"/>
-          <include name="men"/>
           <include name="setup"/>
         </methods>
       </class> <!-- Testpkg.Limetest -->

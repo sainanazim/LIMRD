@@ -82,11 +82,11 @@ public class Limepage {
     @FindBy(xpath = "//*[@id=\"filtrD\"]/div/div[4]/div[3]/label/div")
     WebElement discount;
     
-    @FindBy(xpath = "//*[@id=\"newDeskVmart\"]/a")
-    WebElement vmart;
+    @FindBy(xpath = "//*[@id=\"newDeskOffers\"]/a")
+    WebElement offers;
     
-    @FindBy(xpath = "//*[@id=\"views\"]/div")
-    WebElement vmartpg;
+    @FindBy(xpath = "//*[@id=\"zero_result\"]/div[2]") 
+    WebElement offerspg;
     
     @FindBy(xpath = "/html/body/div[2]/div[4]/div/div[5]/div/div/div[4]/div[1]/div/div[1]/div[2]/a")
     WebElement logout;
@@ -152,12 +152,13 @@ public class Limepage {
 	
 	public void titleverfctn() throws InterruptedException
 	{
+		
 		logo.click();	
-		Thread.sleep(2000);
-	  String actual =  driver.getTitle();
-	  System.out.print("actual tile: "+actual);
-	  String exp = "Limeroad";
-	  Assert.assertEquals(actual, exp);
+		Thread.sleep(6000);
+	   String actual =  driver.getTitle();
+	   System.out.print("actual tile: "+actual);
+	   String exp = "Limeroad";
+	   Assert.assertEquals(actual, exp);
 	}
 	
 	public void kids() throws InterruptedException
@@ -200,14 +201,14 @@ public class Limepage {
 	        wait.until(ExpectedConditions.visibilityOf(discount)).click();
 	}
 	
-	public void screenshot() throws IOException
+	public void screenshot() throws IOException, InterruptedException
 	{
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(90));
-	    logo.click();	
-		vmart.click();
-	    File src =  ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	    File vmartscrn =   vmartpg.getScreenshotAs(OutputType.FILE);
-	    FileHandler.copy(vmartscrn, new File("./Screenshot/vmartpage.png"));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+	   logo.click();
+	   offers.click();
+	   File src =	((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	    File offrscrn = 	offerspg.getScreenshotAs(OutputType.FILE);
+	    FileHandler.copy(offrscrn,new File("./Screenshot/offr.png"));
 	    
 	}
 	
